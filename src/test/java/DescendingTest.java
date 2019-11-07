@@ -2,13 +2,13 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.Arrays;
-import org.junit.jupiter.api.Test;
+import org.junit.Assert;
+import org.junit.Test;
  
-class DescendingTest
+public class DescendingTest
 {
  
-    @Test
-    public boolean checkFileAscending() throws IOException
+    public boolean checkFileDescending() throws IOException
     {
         File sorted = new File("Sorted Names Descending.txt");
         File compare = new File("SortedTestDescending.txt");
@@ -23,5 +23,12 @@ class DescendingTest
             return true;
         else
             return false;
+    }
+    
+    @Test
+    public void testCompare() throws IOException
+    {
+        // if files match, returns true
+        Assert.assertEquals(true, checkFileDescending());
     }
 }

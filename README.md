@@ -10,19 +10,19 @@ All necessary files are located here
 
 ## To run
 
-1. Place the contents of "Command Line Sorting Program" or the folder itself onto your desktop or in a memoriable place that has no restricted actions.
+1. Place the contents of "Command Line Sorting Program" or the folder itself onto your desktop or in a memorable place that has no restricted actions.
 2. Open a command prompt or equivalent
-3. Navigate to the directory in which you've placed "WilliamAbernathyCSC499Homework1.jar" and "Sort Me.txt"
+3. Navigate to the directory in which you have placed "CSC499LectureSeries-1.0-SNAPSHOT.jar" and "Sort Me.txt"
 4. Enter: 
 ```java
-java -jar "WilliamAbernathyCSC499Homework1.jar"
+java -jar "CSC499LectureSeries-1.0-SNAPSHOT.jar"
 ```
 5. Follow the prompt.
 
 
 ## Troubleshooting
 
-Ensure that the file "Sort Me.txt" is placed in the same directory as "WilliamAbernathyCSC499Homework1.jar".
+Ensure that the file "Sort Me.txt" is placed in the same directory as "CSC499LectureSeries-1.0-SNAPSHOT.jar".
 
 Ensure java is up to date.
 
@@ -30,7 +30,7 @@ Ensure the folder has editing permissions
 
 Ensure you are in the correct directory when running the .jar
 	
-- For example C:\Users\matth\Desktop\Command Line Sorting Program
+- For example C:\Users\USERNAME\Desktop\Command Line Sorting Program
 
 ## To test
 
@@ -40,6 +40,6 @@ Ensure you are in the correct directory when running the .jar
 
 1. Open the Project source code with Netbeans or similar IDE
 2. Navigate to the "test" file
-3. Right click on CompareTestAscending.java or CompareTestDescending.java
+3. Right click on AscendingTest.java or DescendingTest.java
 4. Click "Run File"
 5. Examine the results; either success or fail.
